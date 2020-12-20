@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("Интернет магазин");
                 <div class="container">
                     <div
                         class="row row-fix row-30 justify-content-between flex-md-row-reverse align-items-md-center align-items-xl-start">
-                        <div class="col-sm-10 col-md-6 col-xl-7 col-xxl-7">
+                        <div class="col-sm-12 col-md-12 col-xl-12 col-xxl-12">
                             <div class="pl-md-3 pl-lg-0">
                                 <h1 class="title-christmas" data-caption-animate="fadeInUp" data-caption-delay="100">
                                     <span><img src="<?=SITE_TEMPLATE_PATH?>/images/landing-christmas-02-195x182.png"
@@ -21,96 +21,6 @@ $APPLICATION->SetTitle("Интернет магазин");
                                     unforgettable impressions from this year’s<br class="d-none d-xl-block">Christmas
                                     Event at NY Entertainment Center.</p> -->
                                 <!-- <div class="countdown" data-caption-animate="fadeInUp" data-caption-delay="400" data-time="22 Aug 2020 14:00" data-format="dhms" data-type="until"></div> -->
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-5 col-xxl-4">
-                            <div class="box-form-2 novi-bg" data-caption-animate="fadeInRight" data-caption-delay="100">
-                                <h4>Заказать звонок</h4>
-                                <?$APPLICATION->IncludeComponent(
-	"altasib:feedback.form", 
-	"header_form", 
-	array(
-		"ACTIVE_ELEMENT" => "Y",
-		"ADD_HREF_LINK" => "Y",
-		"ADD_LEAD" => "N",
-		"ALX_LINK_POPUP" => "N",
-		"BBC_MAIL" => "",
-		"CATEGORY_SELECT_NAME" => "Выберите категорию",
-		"CHECKBOX_TYPE" => "CHECKBOX",
-		"CHECK_ERROR" => "Y",
-		"COLOR_SCHEME" => "BRIGHT",
-		"EVENT_TYPE" => "ALX_FEEDBACK_FORM",
-		"FB_TEXT_NAME" => "",
-		"FB_TEXT_SOURCE" => "PREVIEW_TEXT",
-		"FORM_ID" => "2",
-		"IBLOCK_ID" => "9",
-		"IBLOCK_TYPE" => "altasib_feedback",
-		"INPUT_APPEARENCE" => array(
-			0 => "DEFAULT",
-		),
-		"JQUERY_EN" => "N",
-		"LINK_SEND_MORE_TEXT" => "Отправить ещё одно сообщение",
-		"LOCAL_REDIRECT_ENABLE" => "N",
-		"MASKED_INPUT_PHONE" => array(
-			0 => "PHONE",
-		),
-		"MESSAGE_OK" => "Ваше сообщение было успешно отправлено",
-		"NAME_ELEMENT" => "NAME",
-		"PROPERTY_FIELDS" => array(
-			0 => "PHONE",
-			1 => "NAME",
-		),
-		"PROPERTY_FIELDS_REQUIRED" => array(
-			0 => "PHONE",
-			1 => "NAME",
-		),
-		"PROPS_AUTOCOMPLETE_EMAIL" => array(
-		),
-		"PROPS_AUTOCOMPLETE_NAME" => array(
-			0 => "NAME",
-		),
-		"PROPS_AUTOCOMPLETE_PERSONAL_PHONE" => array(
-			0 => "PHONE",
-		),
-		"PROPS_AUTOCOMPLETE_VETO" => "N",
-		"REQUIRED_SECTION" => "N",
-		"SECTION_FIELDS_ENABLE" => "N",
-		"SECTION_MAIL_ALL" => "romus.us@yandex.ru",
-		"SEND_IMMEDIATE" => "Y",
-		"SEND_MAIL" => "N",
-		"SHOW_LINK_TO_SEND_MORE" => "Y",
-		"SHOW_MESSAGE_LINK" => "Y",
-		"SPEC_CHAR" => "N",
-		"USERMAIL_FROM" => "N",
-		"USER_CONSENT" => "N",
-		"USER_CONSENT_ID" => "0",
-		"USER_CONSENT_INPUT_LABEL" => "",
-		"USER_CONSENT_IS_CHECKED" => "Y",
-		"USER_CONSENT_IS_LOADED" => "N",
-		"USE_CAPTCHA" => "N",
-		"WIDTH_FORM" => "100%",
-		"COMPONENT_TEMPLATE" => "header_form",
-		"COLOR_THEME" => "",
-		"COLOR_OTHER" => "#009688"
-	),
-	false
-);?>
-
-                                <div class="unit unit-spacing-6 align-items-center">
-                                    <div class="unit-left">
-                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                            xmlns="https://www.w3.org/2000/svg">
-                                            <path
-                                                d="M15 0C12.9297 0 10.9863 0.400391 9.16992 1.20117C7.35352 1.98242 5.76172 3.05664 4.39453 4.42383C3.04688 5.77148 1.97266 7.35352 1.17188 9.16992C0.390625 10.9863 0 12.9297 0 15C0 17.0703 0.390625 19.0137 1.17188 20.8301C1.97266 22.6465 3.04688 24.2383 4.39453 25.6055C5.76172 26.9531 7.35352 28.0176 9.16992 28.7988C10.9863 29.5996 12.9297 30 15 30C17.0703 30 19.0137 29.5996 20.8301 28.7988C22.6465 28.0176 24.2285 26.9531 25.5762 25.6055C26.9434 24.2383 28.0176 22.6465 28.7988 20.8301C29.5996 19.0137 30 17.0703 30 15C30 12.9297 29.5996 10.9863 28.7988 9.16992C28.0176 7.35352 26.9434 5.77148 25.5762 4.42383C24.2285 3.05664 22.6465 1.98242 20.8301 1.20117C19.0137 0.400391 17.0703 0 15 0ZM15 4.6875C15.5078 4.6875 15.9473 4.87305 16.3184 5.24414C16.6895 5.61523 16.875 6.05469 16.875 6.5625C16.875 7.07031 16.6895 7.50977 16.3184 7.88086C15.9473 8.25195 15.5078 8.4375 15 8.4375C14.4922 8.4375 14.0527 8.25195 13.6816 7.88086C13.3105 7.50977 13.125 7.07031 13.125 6.5625C13.125 6.05469 13.3105 5.61523 13.6816 5.24414C14.0527 4.87305 14.4922 4.6875 15 4.6875ZM18.75 25.3125H11.25C10.9766 25.3125 10.752 25.2246 10.5762 25.0488C10.4004 24.873 10.3125 24.6484 10.3125 24.375C10.3125 24.1016 10.4004 23.877 10.5762 23.7012C10.752 23.5254 10.9766 23.4375 11.25 23.4375H14.0625V13.125H11.25C10.9766 13.125 10.752 13.0371 10.5762 12.8613C10.4004 12.6855 10.3125 12.4609 10.3125 12.1875C10.3125 11.9141 10.4004 11.6895 10.5762 11.5137C10.752 11.3379 10.9766 11.25 11.25 11.25H15C15.2734 11.25 15.498 11.3379 15.6738 11.5137C15.8496 11.6895 15.9375 11.9141 15.9375 12.1875V23.4375H18.75C19.0234 23.4375 19.248 23.5254 19.4238 23.7012C19.5996 23.877 19.6875 24.1016 19.6875 24.375C19.6875 24.6484 19.5996 24.873 19.4238 25.0488C19.248 25.2246 19.0234 25.3125 18.75 25.3125Z">
-                                            </path>
-                                        </svg>
-                                    </div>
-                                    <div class="unit-body">
-                                        <p class="small">Нажимаю кнопку "Заказать", Вы соглашаетесь с политикой
-                                            обработки данных</p>
-                                    </div>
-                                </div>
-
                             </div>
                         </div>
                     </div>
