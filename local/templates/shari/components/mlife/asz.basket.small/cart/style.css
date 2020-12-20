@@ -1,0 +1,70 @@
+.mlfSmallcart {display:block;padding-left:35px;line-height:20px;/*background:url('images/korz.png') 0 0 no-repeat;*/text-decoration:none;}
+.mlfSmallcart .cartempty, .mlfSmallcart .cart {font-size:14px;color:#2779D5;text-decoration:none;display:block;overflow:hidden;}
+.mlfSmallcart .cart:hover {color:#990099;}
+
+.header-cart {
+    padding-left: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .header-cart__ico {
+      position: relative;
+      display: table; }
+      .header-cart__ico svg {
+        width: 26px;
+        height: 28px;
+        fill: #fff; }
+    .header-cart__count {
+      position: absolute;
+      top: -4px;
+      right: -10px;
+      background: #cb07b9;
+      border-radius: 50%;
+      width: 1.57143rem;
+      height: 1.57143rem;
+      color: #fff;
+      text-align: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
+    .header-cart__box {
+      padding-left: 20px;
+      font-weight: 500; }
+    .header-cart__title {
+      display: block;
+      color: #fff;
+      font-size: 16px;
+      font-size: 1.14286rem; }
+    .header-cart__price {
+      display: block;
+      color: #fff;
+      font-size: 12px;
+      font-size: 0.85714rem; }
+      .rd-navbar-panel .mlfSmallcart1 {
+        display: none;
+      }
+      @media (max-width: 1024px) {
+        .rd-navbar-main-element .mlfSmallcart1 {
+          display: none;
+        }
+        .rd-navbar-panel .mlfSmallcart1 {
+          display: block;
+        }
+      }
+    @media (max-width: 400px) {
+      .header-cart {
+        width: 100%;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-top: 15px; } }
+  

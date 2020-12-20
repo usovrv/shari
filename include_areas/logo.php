@@ -1,0 +1,1 @@
+<a href="/" ><img src="/images/logo.png" border="0" alt="Интернет магазин ASZ" /></a>

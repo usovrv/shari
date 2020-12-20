@@ -1,0 +1,16 @@
+#workarea ul { list-style-type: none;  padding:0; margin: 0 0 0 1.5em;}
+#workarea ul li:before { content:'\2014\a0'; }
+#workarea li
+{
+	behavior:expression( !this.before  ? this.before = this.innerHTML = '<span class="dash">&mdash;&nbsp;</span>' + this.innerHTML :'' );
+	text-indent:-1.35em;
+	margin: 0.6em 0
+}
+
+#workarea ul ul { padding:0 0 0 1.5em; margin: 0.6em 0}
+
+
+table.data-table { width: 100%; border-bottom: 1px solid #F0F0F0; border-top: 1px solid #F0F0F0}
+table.data-table th { text-align: left;}
+table.data-table td, table.data-table th { padding: 1em; font-size: 0.85em;}
+table.data-table tr.alt-row { background-color: #F0F0F0; }
