@@ -28,6 +28,8 @@ $APPLICATION->SetTitle("Интернет магазин");
             </div>
         </div>
     </div>
+
+	
     <!--Swiper Pagination-->
     <!-- <div class="swiper-pagination"></div> -->
     <!--Swiper Navigation-->
