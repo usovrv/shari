@@ -73,7 +73,7 @@ Loc::loadMessages(__FILE__);
 		"SEND_MAIL" => "N",
 		"SHOW_LINK_TO_SEND_MORE" => "Y",
 		"SHOW_MESSAGE_LINK" => "Y",
-		"SPEC_CHAR" => "N",
+		"SPEC_CHAR" => "Y",
 		"USERMAIL_FROM" => "N",
 		"USER_CONSENT" => "N",
 		"USER_CONSENT_ID" => "0",
@@ -84,7 +84,11 @@ Loc::loadMessages(__FILE__);
 		"WIDTH_FORM" => "100%",
 		"COMPONENT_TEMPLATE" => "footer_form",
 		"COLOR_THEME" => "",
-		"COLOR_OTHER" => "#009688"
+		"COLOR_OTHER" => "#009688",
+		"SPEC_CHAR_LIST" => "@,/,<,>",
+		"CAPTCHA_TYPE" => "default",
+		"NOT_CAPTCHA_AUTH" => "Y",
+		"CHANGE_CAPTCHA" => "N"
 	),
 	false
 );?>

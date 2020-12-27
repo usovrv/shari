@@ -17,7 +17,7 @@ $APPLICATION->SetTitle("Страница не найдена");
 		<div class="b-default__main">
 			<h1><?$APPLICATION->ShowTitle(false);?></h1>
 		</div>
-		<div class="clear"></div>
+		<div class="clear">1</div>
 	</div>	
 </div>
 <?

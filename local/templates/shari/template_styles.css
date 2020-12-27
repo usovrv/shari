@@ -27,3 +27,38 @@
     font-size: 12px;
     color: #37404E;
 }
+@media(max-width: 820px){
+    .basketItems {
+      display: flex;
+      width: 100% !important;
+      flex-direction: column;
+    }
+    .b-cart__head {
+      display: none;
+    }
+    .b-cart__item {
+      display: flex;
+      align-items: center;
+      padding: 16px;
+      flex-wrap: wrap;
+    }
+    .b-cart__column--photo {
+      width: auto;
+      flex: 1 0 60px;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+    }
+    .b-cart__column--name {
+      flex: 1 1 400px;
+      width: auto;
+      padding: 10px 0;
+    }
+    .b-cart__column--priceall {
+      width: auto;
+      flex: 1 1 100px;
+    }
+    .b-cart__column--delete {
+      width: auto;
+    }
+  }
