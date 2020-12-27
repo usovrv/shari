@@ -120,7 +120,7 @@ Loc::loadMessages(__FILE__);
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/core.min.js");
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/jquery.popup.js");
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/jquery.inputmask.bundle.min.js");
-    Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/masonry.pkgd.min.js");
+    Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/ma");
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/script.js");
     ?>
 
