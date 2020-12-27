@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use strict";
 (function () {
 	// Global variables
@@ -1631,7 +1632,10 @@
 	}
 	$('input[name=phone]').inputmask("+7 (999) 999-9999", { "clearIncomplete": true });
 	
-	$(".fancybox").fancybox();
+	$('.grid').masonry({
+		// options
+		itemSelector: '.grid-item',
+		columnWidth: 200
+	  });
 }());
 
-  

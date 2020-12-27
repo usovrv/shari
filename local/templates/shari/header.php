@@ -5,7 +5,6 @@ Loc::loadMessages(__FILE__);
 ?>
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="ru">
-
 <head>
     <title>
         <? $APPLICATION->ShowTitle() ?>
@@ -71,10 +70,10 @@ Loc::loadMessages(__FILE__);
                                             alt="" width="222" height="56" /></a>
                                 </div>
                                 <?$APPLICATION->IncludeComponent(
-	"mlife:asz.basket.small",
-	"cart",
-Array()
-);?>
+                                    "mlife:asz.basket.small",
+                                    "cart",
+                                Array()
+                                );?>
                             </div>
                             <div class="rd-navbar-main-element">
                                 <div class="rd-navbar-nav-wrap">
@@ -93,10 +92,10 @@ Array()
                                     );?>
                                 </div>
                                 <?$APPLICATION->IncludeComponent(
-	"mlife:asz.basket.small",
-	"cart",
-Array()
-);?>
+                                    "mlife:asz.basket.small",
+                                    "cart",
+                                Array()
+                                );?>
                             </div>
                         </div>
                     </div>

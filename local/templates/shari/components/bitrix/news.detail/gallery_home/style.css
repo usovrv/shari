@@ -1,13 +1,27 @@
-div.news-detail
-{
-	word-wrap: break-word;
+.gallery{
+    padding: 1em;
+    column-count: 6;
 }
-div.news-detail img.detail_picture
-{
-	float:left;
-	margin:0 8px 6px 1px;
+
+.gallery img{
+    width: 100%;
+    margin-bottom: 1em;
 }
-.news-date-time
-{
-	color:#486DAA;
+
+@media(max-width: 800px){
+    .gallery {
+        column-count: 3;
+    }
+}
+
+@media(max-width: 600px){
+    .gallery {
+        column-count: 2;
+    }
+}
+
+@media(max-width: 400px){
+    .gallery {
+        column-count: 1;
+    }
 }

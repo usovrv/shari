@@ -13,15 +13,15 @@
 $this->setFrameMode(true);
 ?>
 
-<section class="section novi-section text-center">
-    <div class="row no-gutters">
+<div class="gallery">
         <?
 		foreach($arResult["DISPLAY_PROPERTIES"]["GALLERY"]["VALUE"] as $gallery):?>
-        <?$img = CFile::ResizeImageGet($gallery, array('width'=>480, 'height'=>480), BX_RESIZE_IMAGE_EXACT , true);?>
-        <div class="col-sm-6 col-lg-3 wow fadeInUp"><img class="img-wide" src="<?=$img["src"]?>" alt="" width="480"
-                height="480" />
+        <?$img = CFile::ResizeImageGet($gallery, array('width'=>480, 'height'=>480), BX_RESIZE_IMAGE_PROPORTIONAL , true);?>
+        <div>
+            <a data-fancybox="gallery" class="fancybox" rel="media-gallery" href="<?=$img["src"]?>">
+                <img src="<?=$img["src"]?>" alt=""/>
+            </a>
         </div>
         <?endforeach;
 		?>
-    </div>
-</section>
+</div>
