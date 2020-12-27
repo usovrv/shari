@@ -73,7 +73,7 @@ Loc::loadMessages(__FILE__);
 		"SEND_MAIL" => "N",
 		"SHOW_LINK_TO_SEND_MORE" => "Y",
 		"SHOW_MESSAGE_LINK" => "Y",
-		"SPEC_CHAR" => "Y",
+		"SPEC_CHAR" => "N",
 		"USERMAIL_FROM" => "N",
 		"USER_CONSENT" => "N",
 		"USER_CONSENT_ID" => "0",
@@ -84,11 +84,7 @@ Loc::loadMessages(__FILE__);
 		"WIDTH_FORM" => "100%",
 		"COMPONENT_TEMPLATE" => "footer_form",
 		"COLOR_THEME" => "",
-		"COLOR_OTHER" => "#009688",
-		"SPEC_CHAR_LIST" => "@,/,<,>",
-		"CAPTCHA_TYPE" => "default",
-		"NOT_CAPTCHA_AUTH" => "Y",
-		"CHANGE_CAPTCHA" => "N"
+		"COLOR_OTHER" => "#009688"
 	),
 	false
 );?>
@@ -124,6 +120,7 @@ Loc::loadMessages(__FILE__);
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/core.min.js");
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/jquery.popup.js");
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/jquery.inputmask.bundle.min.js");
+    Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/masonry.pkgd.min.js");
     Asset::getInstance()->addJs(SITE_TEMPLATE_PATH . "/js/script.js");
     ?>
 

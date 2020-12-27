@@ -1630,4 +1630,11 @@
 		});
 	}
 	$('input[name=phone]').inputmask("+7 (999) 999-9999", { "clearIncomplete": true });
+	
+	$('.grid').masonry({
+		// options
+		itemSelector: '.grid-item',
+		columnWidth: 200
+	  });
 }());
+
