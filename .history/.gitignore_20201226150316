@@ -1,0 +1,5 @@
+.vscode/
+bitrix/
+upload/
+test/
+sftp.json

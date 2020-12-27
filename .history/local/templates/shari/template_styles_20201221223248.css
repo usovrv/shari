@@ -1,0 +1,29 @@
+.bx-breadcrumb {
+    margin: 10px 0;
+    width: 100%;
+}
+.productwrap {
+    padding: 25px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+}
+.viewWrap {
+    display: none;
+}
+.harakt {
+    margin: 20px 0px 20px 0px;
+}
+.harakt table.haraktAll {
+    width: 100%;
+}
+.harakt table.haraktAll td.name {
+    width: 40%;
+    color: #37404E;
+    font-weight: bold;
+}
+.harakt table.haraktAll td {
+    border-bottom: 1px dotted #c6c6c6;
+    padding: 5px 5px;
+    font-size: 12px;
+    color: #37404E;
+}

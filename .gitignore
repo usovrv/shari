@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .vscode/*
 /bitrix/*
 !/bitrix/php_interface/
@@ -5,4 +6,10 @@
 .idea/*
 /upload/
 /test/
+=======
+.vscode/
+bitrix/
+upload/
+test/
+>>>>>>> a05f8af1df65a2d695b59339230540fec61db9f0
 sftp.json
